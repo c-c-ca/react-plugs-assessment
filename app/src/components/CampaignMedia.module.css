@@ -1,0 +1,56 @@
+.CampaignMedia {
+  padding-right: 2rem;
+}
+
+.CoverPhoto {
+  height: 25rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.CoverPhotoOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(20, 20, 20, 0.4);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.MediaIconContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.MediaIconWrapper {
+  background-color: #fff;
+  width: 7.5rem;
+  padding: 2rem 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MediaIconWrapperLeft {
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.MediaIconWrapperRight {
+  border-radius: 0 1.5rem 1.5rem 0;
+}
+
+.CopyOnHover {
+  cursor: copy;
+}

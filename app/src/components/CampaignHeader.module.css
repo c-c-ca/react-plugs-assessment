@@ -1,0 +1,30 @@
+.CampaignHeader {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.CampaignInfo {
+  padding-left: 1rem;
+}
+
+.CampaignIcon {
+  border-radius: 2rem;
+}
+
+.CampaignName {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+.PayPerInstall {
+  font-size: 2rem;
+  color: rgb(12, 161, 12);
+  font-weight: 400;
+}
+
+.PayPerInstallCount {
+  font-weight: 700;
+}

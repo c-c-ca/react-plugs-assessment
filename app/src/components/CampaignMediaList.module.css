@@ -1,0 +1,10 @@
+.CampaignMediaList {
+  display: flex;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.CampaignMediaList::-webkit-scrollbar {
+  display: none;
+}
