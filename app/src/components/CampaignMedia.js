@@ -39,6 +39,9 @@ const CampaignMedia = ({
             className={styles.CopyOnHover}
             size={ICON_SIZE}
             color={ICON_COLOR}
+            onClick={() => {
+              onClickCopyToClipboard(tracking_link);
+            }}
           />
         </div>
         <div
@@ -52,9 +55,6 @@ const CampaignMedia = ({
               className={styles.MediaIcon}
               size={ICON_SIZE}
               color={ICON_COLOR}
-              onClick={() => {
-                onClickCopyToClipboard(tracking_link);
-              }}
             />
           </a>
         </div>
